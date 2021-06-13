@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+}
+
+head {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.text1 {
+  text-align: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+}
+
+.first {
+  grid-column: 2/3;
+  text-align: center;
+  border: solid black;
+  margin-top: 20px;
+  padding: 30px 30px 30px 30px;
+}
+.variables {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+}
+
+.varA {
+  grid-column: 1/2;
+  display: grid;
+}
+.value1 {
+  justify-self: center;
+}
+
+.varB {
+  grid-column: 3/4;
+  display: grid;
+}
+.value2 {
+  justify-self: center;
+}
+
+.third {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px;
+}
+
+.calculate {
+  margin: 20px;
+}
